@@ -6,9 +6,6 @@ def oxford_comma(array)
       array.join(" ")
     else
       array.insert(-2, "and")
-      array.map.with_index do |commas, i| 
-        
       array.join(", ")
- end     
 end
 end
