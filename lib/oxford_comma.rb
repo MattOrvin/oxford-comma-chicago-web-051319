@@ -7,9 +7,9 @@ def oxford_comma(array)
     else
       array.insert(-2, "and")
       array.map.with_index do |commas, i| 
-        
+        insert(", " 
       
-      array.join(", ")
+      
  end     
 end
 end
