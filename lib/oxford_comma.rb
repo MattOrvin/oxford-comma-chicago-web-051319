@@ -6,7 +6,7 @@ def oxford_comma(array)
       array.join(" ")
     else
       array.insert(-2, "and")
-      array.collect {|commas| 
+      array.map.with {|commas| 
       array.join(", ")
       
 end
